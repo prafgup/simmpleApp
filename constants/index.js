@@ -1,18 +1,18 @@
 const STATUS = {
     ADD: "STATUS_ADD",
     SEEN: "STATUS_SEEN",
-    PRESENT: "STATUS_PRESENT",
+    ON_ADD: "STATUS_ON_ADD"
 };
 
-const PROFILE = {
-    CHANGE: "IMAGE_CHANGE",
-    CLICK : "PROFILE_CLICK",
-    LONG_PRESS: "PROFILE_LONG_PRESS",
+const IMAGES = {
+    LOAD: "IMAGE_LOAD",
+    LOAD_FAIL: "IMAGE_LOAD_FAIL",
+    LOAD_PASS: "IMAGE_LOAD_PASS",
+    DELETE: "IMAGE_DELETE"
 };
-
 
 
 export {
     STATUS,
-    PROFILE,
+    IMAGES,
 };

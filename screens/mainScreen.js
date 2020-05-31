@@ -13,11 +13,17 @@ import { Colors } from "react-native/Libraries/NewAppScreen";
 
 import BottomFancyBar from "../component/bottomShapesBar/index";
 import ProfileTopScreen from "./profileTopScreen/index"
+import AppBar from "../component/appBar";
+
+
 
 class MainScreen extends React.Component{
     render () {
         return(
             <SafeAreaView style={styles.mainContainer}>
+                <View style={styles.appBar}>
+                    <AppBar/>
+                </View>
                 <View style={styles.topContainer}>
                     <ProfileTopScreen/>
                 </View>
@@ -42,7 +48,11 @@ const styles = StyleSheet.create({
     },
     bottomContainer:{
         flex:30,
+    },
+    appBar:{
+        flex:10
     }
+
     }
 )
 

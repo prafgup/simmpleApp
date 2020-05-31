@@ -1,11 +1,11 @@
 import {all,fork} from "redux-saga/effects";
-import profileSaga from "./profileSaga";
-
-
+import imageSaga from "./imageSaga";
+import statusSaga from "./statusSaga";
 
 
 export function* rootSaga(){
     yield all([
-        profileSaga(),
+        imageSaga(),
+        statusSaga(),
     ]);
 }
