@@ -42,7 +42,6 @@ const styles = StyleSheet.create({
     },
     bottomContainer:{
         flex:30,
-        
     }
     }
 )

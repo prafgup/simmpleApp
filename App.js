@@ -8,7 +8,7 @@ import MainScreen from "./screens/mainScreen"
 
 const store = configureStore();
 
-export default function App(){
+const App = () => {
   return (
     <Provider store= {store}>
 
@@ -17,3 +17,5 @@ export default function App(){
     </Provider>
   );
 }
+
+export default App;
