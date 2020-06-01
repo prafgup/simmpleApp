@@ -2,6 +2,8 @@ import {delay, takeEvery ,takeLatest , put,call,select,fork} from "redux-saga/ef
 
 import {STATUS} from "../constants/index";
 import {statusAdd,statusSeen} from "../actions"
+import {} from "react-navigation";
+
 
 export function* handleStatusAdd(){
 

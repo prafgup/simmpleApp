@@ -35,13 +35,9 @@ class ProfileTopScreen extends React.Component{
         return points;
       }
 
-
-
       renderFileUri(fileUri) {
 
         if (fileUri != null) {
-            
-        console.log("Image is not null");
           return <Image
             href={{ uri: fileUri }}
             clipPath="#clipImg"
@@ -97,8 +93,16 @@ class ProfileTopScreen extends React.Component{
             else if(status && status.statusSeen == true){
                 return "grey";
             }
-
             return "green";
+      }
+
+      goToStackScreen(status){
+          this.props.seenStatus();
+          if(status != null){
+            this.props.navigation.push("Status",{
+                status:status
+            });
+          }
       }
 
 
@@ -108,7 +112,6 @@ class ProfileTopScreen extends React.Component{
         console.log("Props");
         console.log(this.props);
 
-
         return(
 
             <View style={styles.container}>
@@ -116,7 +119,7 @@ class ProfileTopScreen extends React.Component{
             <View style={styles.stack}>
 
             <View style={styles.imageContainer}>
-            <TouchableWithoutFeedback onLongPress={this.props.loadImg} onPress={this.props.seenStatus}>
+            <TouchableWithoutFeedback onLongPress={this.props.loadImg} onPress={()=>{this.goToStackScreen(this.props.status)}}>
                 <View>
                     <View style={styles.imageBackground}>
                         <Svg height="170" width="170" viewBox="0 0 170 170">
@@ -255,6 +258,8 @@ const styles = StyleSheet.create({
 
 // Map State To Props (Redux Store Passes State To Component)
 const mapStateToProps = (state) =>{
+    console.log("STATE");
+    console.log(state);
 
     const {image,error,status} = state;
 

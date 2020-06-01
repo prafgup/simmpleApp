@@ -25,7 +25,7 @@ class MainScreen extends React.Component{
                     <AppBar/>
                 </View>
                 <View style={styles.topContainer}>
-                    <ProfileTopScreen/>
+                    <ProfileTopScreen  navigation={this.props.navigation}  />
                 </View>
                 <View style={styles.bottomContainer}>
                     <BottomFancyBar/>
