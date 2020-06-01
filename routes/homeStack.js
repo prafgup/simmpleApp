@@ -13,7 +13,10 @@ const screens = {
         },
     },
     Status:{
-        screen: StatusScreen
+        screen: StatusScreen,
+        navigationOptions: {
+            headerShown: false, 
+        },
     }
 }
 

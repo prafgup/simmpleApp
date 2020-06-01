@@ -40,10 +40,10 @@ class ProgressBar extends React.Component {
 const styles = StyleSheet.create({  
     container: { 
     width: "90%",  
-    height: 10,  
+    height: 6,  
     padding: 0,  
-    borderColor: "#FAA",  
-    borderWidth: 3,  
+    borderColor: "white",  
+    borderWidth: 1,  
     borderRadius: 5,  
     justifyContent: "center",
     left:"5%",
@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
     width: "100%",  
     height: "100%",  
     borderRadius: 5,  
-    backgroundColor:"#FAA",  
+    backgroundColor:"white",  
   },  
 });
 
