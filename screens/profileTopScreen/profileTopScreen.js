@@ -12,6 +12,7 @@ const url = "https://cdn.iconscout.com/icon/free/png-512/404-page-not-found-4568
 
 
 import AddStatusIcon from "../../component/statusAddIcon"
+import StatusDots from "../../component/statusDots";
 import { Colors } from "react-native/Libraries/NewAppScreen";
 
 
@@ -63,7 +64,6 @@ class ProfileTopScreen extends React.Component{
           console.log("here");
           
           if(status == null){
-
             return <View style={styles.plusSign}>
                 <TouchableOpacity onPress={onAddStatus}>
                             
@@ -71,9 +71,34 @@ class ProfileTopScreen extends React.Component{
                             
                     </TouchableOpacity>
                     </View>
-                
-            
           }
+
+          else{
+            if(status && status.statusSeen == false){
+                return <View style={styles.threeDots}>
+                <StatusDots/>
+                </View>
+            }
+            else{
+                return <View/>
+                    
+            }
+
+          }
+      }
+
+      renderStatusColor(status){
+            if(status==null){
+                return "white";
+            }
+            else if(status && status.statusSeen == false){
+                return "orange";
+            }
+            else if(status && status.statusSeen == true){
+                return "grey";
+            }
+
+            return "green";
       }
 
 
@@ -91,7 +116,7 @@ class ProfileTopScreen extends React.Component{
             <View style={styles.stack}>
 
             <View style={styles.imageContainer}>
-            <TouchableWithoutFeedback onLongPress={this.props.loadImg}>
+            <TouchableWithoutFeedback onLongPress={this.props.loadImg} onPress={this.props.seenStatus}>
                 <View>
                     <View style={styles.imageBackground}>
                         <Svg height="170" width="170" viewBox="0 0 170 170">
@@ -100,7 +125,7 @@ class ProfileTopScreen extends React.Component{
                                     <Polygon points={this.sketchAvatar(170,10)} />
                                 </ClipPath>
                             </Defs>
-                            <Rect height="170" width="170"  fill = "orange" clipPath="#clipBack" /> 
+                            <Rect height="170" width="170"  fill = {this.renderStatusColor(this.props.status)} clipPath="#clipBack" /> 
                         </Svg>
                     </View>
 
@@ -136,10 +161,6 @@ class ProfileTopScreen extends React.Component{
             
             </View>
 
-            
-
-
-
             <View>
                 <View>
                     <Text  style={styles.nameText}>Byung Ho</Text>
@@ -165,7 +186,7 @@ const styles = StyleSheet.create({
 
     container:{
         flex:1,
-        backgroundColor:"pink",
+        //backgroundColor:"pink",
         //justifyContent:"center",
         alignContent:"center",
         marginLeft:"auto",
@@ -193,6 +214,13 @@ const styles = StyleSheet.create({
       zIndex:0  
     },
 
+    threeDots:{
+        position:"absolute",
+        right:13,
+        bottom:24,
+        zIndex:1
+
+    },
     imageBackground:{
        
     },
@@ -227,8 +255,6 @@ const styles = StyleSheet.create({
 
 // Map State To Props (Redux Store Passes State To Component)
 const mapStateToProps = (state) =>{
-    console.log('State:');
-    console.log(state);
 
     const {image,error,status} = state;
 
@@ -243,11 +269,8 @@ const mapStateToProps = (state) =>{
 
 // Map Dispatch To Props (Dispatch Actions To Reducers. Reducers Then Modify The Data And Assign It To Your Props)
 const mapDispachToProps = (dispach) => {
-    //Action
     return {
-        //seen function
         loadImg: ()=> {
-            console.log("dispatching");
             dispach(loadImage());
         },
 

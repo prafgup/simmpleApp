@@ -13,9 +13,14 @@ const statusReducer = (state = null,action) =>{
         }
     }
     if(action.type == STATUS.SEEN){
-        return {
-            ...state ,
-            statusSeen: true
+        if(state ==null){
+            return state;
+        }
+        else {
+            return {
+                ...state ,
+                statusSeen: true
+            }
         }
     }
     return state;

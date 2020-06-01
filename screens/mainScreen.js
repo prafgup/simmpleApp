@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
     },
     topContainer:{
         flex:100,
-        backgroundColor: 'red'
+        //backgroundColor: 'red'
     },
     bottomContainer:{
         flex:30,

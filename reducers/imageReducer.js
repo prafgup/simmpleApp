@@ -1,7 +1,7 @@
 import {IMAGES} from "../constants/index";
 
 
-const initialState = "https://cdn.iconscout.com/icon/free/png-512/404-page-not-found-456876.png";
+const initialState = "https://cdn.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png";
 
 const imageReducer = (state = initialState,action) =>{
     if(action.type == IMAGES.LOAD_PASS){
@@ -11,7 +11,6 @@ const imageReducer = (state = initialState,action) =>{
         return initialState
     }
     return state;
-
 }
 
 export default imageReducer;
