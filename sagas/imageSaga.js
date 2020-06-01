@@ -22,7 +22,7 @@ export const photoPick = () => {
     return new Promise(((resolve, reject) => {
         ImagePicker.showImagePicker(options, (response) => {
             if (response.didCancel) {
-                reject('User cancelled image picker');
+                reject('User Cancelled Image Picker');
             } else if (response.error) {
                 reject('ImagePicker Error: ', response.error);
             } else if (response.customButton) {
@@ -51,6 +51,7 @@ export function* handleImageLoad(){
         }
       }
       catch (error){
+          alert(error);
           yield put(loadFail(error));
       }
 }

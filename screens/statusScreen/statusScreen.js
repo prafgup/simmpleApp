@@ -6,7 +6,7 @@ import styles from "./statusStyle";
 
 
 class StatusScreen extends React.Component{
-
+    
     timeout = null;
 
     componentDidMount(){
