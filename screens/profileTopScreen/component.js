@@ -14,15 +14,15 @@ import StatusDots from "../../component/statusDots";
 
 const NameBio = ()=>{
     return <View>
-        <View>
+        <View data-test="profileName">
             <Text  style={styles.nameText}>Byung Ho</Text>
         </View>
 
-        <View >
+        <View data-test="profession">
             <Text style={styles.descText}>Photographer</Text>
         </View>
 
-        <View >
+        <View data-test="website">
             <Text style={styles.descText}>www.hoarts.comm</Text>
         </View>
     </View>
@@ -30,9 +30,9 @@ const NameBio = ()=>{
 
 const renderStatusIcon = (status,onAddStatus) => {
           
-    if(status == null){
+    if(status == null || Object.keys(status).length === 0){
       return <View style={styles.plusSign}>
-          <TouchableOpacity onPress={onAddStatus}>
+          <TouchableOpacity data-test="plus" onPress={onAddStatus}>
                       
                       <AddStatusIcon/>
                       
@@ -42,13 +42,12 @@ const renderStatusIcon = (status,onAddStatus) => {
 
     else{
       if(status && status.statusSeen == false){
-          return <View style={styles.threeDots}>
+          return <View data-test="threeDot" style={styles.threeDots}>
           <StatusDots/>
           </View>
       }
       else{
-          return <View/>
-              
+          return <View/>      
       }
 
     }
@@ -56,28 +55,33 @@ const renderStatusIcon = (status,onAddStatus) => {
 
 const renderFileUri = (fileUri) => {
 
-    if (fileUri != null) {
-      return <Image
+    if (fileUri != null && fileUri.length>0 ) {
+      return (<Image
         href={{ uri: fileUri }}
         clipPath="#clipImg"
         preserveAspectRatio="xMidYMid slice"
         width="100%"
         height="100%"
+        data-test='uriImage'
         
-      />
-    } else {
-        return <Image href={{ uri: url}}   
-        clipPath="#clipImg"
-        preserveAspectRatio="xMidYMid slice"
-        width="100%"
-        height="100%"
-        />
-    }
+      />);
+    } 
+    
+    return <Image 
+            data-test='defaultImage'
+            href={{ uri: url}}   
+            clipPath="#clipImg"
+            preserveAspectRatio="xMidYMid slice"
+            width="100%"
+            height="100%"
+            
+            />
+    
   }
 
 
 const renderStatusColor = (status) => {
-    if(status==null){
+    if(status==null || Object.keys(status).length === 0){
         return "white";
     }
     else if(status && status.statusSeen == false){
@@ -86,7 +90,7 @@ const renderStatusColor = (status) => {
     else if(status && status.statusSeen == true){
         return "grey";
     }
-    return "green";
+    return "white";
 }
 
 const sketchAvatar = (w,n) => {

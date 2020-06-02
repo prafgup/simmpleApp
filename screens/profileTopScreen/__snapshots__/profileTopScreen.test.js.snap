@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile Top Page Decagon Points  Should return 10 points in string: All Points 1`] = `"100,50 90.45084971874738,79.38926261462366 65.45084971874738,97.55282581475768 34.549150281252636,97.55282581475768 9.549150281252633,79.38926261462368 0,50.000000000000014 9.549150281252627,20.61073738537635 34.54915028125262,2.447174185242323 65.45084971874736,2.447174185242318 90.45084971874738,20.610737385376332 "`;
+
+exports[`Profile Top Page Image Render Should Return Default: Default Image 1`] = `ShallowWrapper {}`;
+
+exports[`Profile Top Page Image Render Should Return uriImage: User Image 1`] = `ShallowWrapper {}`;
+
+exports[`Profile Top Page Name and Bio Should match to snapshot: Name Bio 1`] = `ShallowWrapper {}`;
+
+exports[`Profile Top Page SVG Image Render Should Match Snapshot: Default Image 1`] = `ShallowWrapper {}`;
+
+exports[`Profile Top Page Should Return Correct Floating Icon Should Return Just View: View 1`] = `ShallowWrapper {}`;
+
+exports[`Profile Top Page Should Return Correct Floating Icon Should Return Plus Sign: Plus Sign 1`] = `ShallowWrapper {}`;
+
+exports[`Profile Top Page Should Return Correct Floating Icon Should Return Three Dots: Three Dots 1`] = `ShallowWrapper {}`;
+
+exports[`Profile Top Page Should return correct Status Color Should return grey: Status Seen True 1`] = `"grey"`;
+
+exports[`Profile Top Page Should return correct Status Color Should return orange: Status Seen False 1`] = `"orange"`;
+
+exports[`Profile Top Page Should return correct Status Color Should return white: Status Null 1`] = `"white"`;

@@ -5,12 +5,12 @@ import {View,StyleSheet} from "react-native";
 class StatusDots extends React.Component{
     render(){
         return(
-            <View style={styles.container}>
-                <View style={styles.CircleShapeView}>
+            <View  style={styles.container}>
+                <View data-test="dots" style={styles.CircleShapeView}>
                 </View>
-                <View style={styles.CircleShapeView}>
+                <View data-test="dots" style={styles.CircleShapeView}>
                 </View>
-                <View style={styles.CircleShapeView}>
+                <View data-test="dots" style={styles.CircleShapeView}>
                 </View>
             </View>
         );

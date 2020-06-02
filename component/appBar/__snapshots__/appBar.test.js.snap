@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Bar Profile App Bar Should match to snapshot: Name Bio 1`] = `ShallowWrapper {}`;

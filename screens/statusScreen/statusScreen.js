@@ -22,10 +22,10 @@ class StatusScreen extends React.Component{
     render(){
         return(
             <View style={styles.container}>
-                <View style={styles.progress}>
+                <View data-test="progressBar" style={styles.progress}>
                     <ProgressBar/>
                 </View>
-                <View style={styles.imageAndHead}>
+                <View data-test="image" style={styles.imageAndHead}>
                     
                 <Image
                     style={styles.imagePic}
@@ -33,12 +33,12 @@ class StatusScreen extends React.Component{
                     uri: this.props.navigation.getParam("status").statusImage,
                     }}
                 />
-                <Text  style={styles.headline}>
+                <Text data-test="headline" style={styles.headline}>
                     {this.props.navigation.getParam("status").statusHeadline}
                 </Text>
                         
                 </View>
-                <View style={styles.statusText}>
+                <View data-test="userText" style={styles.statusText}>
                 <Text  style={styles.userText}>
                     {this.props.navigation.getParam("status").statusText}
                 </Text>

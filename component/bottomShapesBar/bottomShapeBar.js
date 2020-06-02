@@ -7,13 +7,13 @@ class BottomFancyBar extends React.Component {
     render(){
         return (
             <View style={styles.container}>
-                <View style={styles.LineView}>
+                <View data-test="bottomBar" style={styles.LineView}>
                 </View>
-                <View style={styles.CircleShapeView}>
+                <View data-test="bottomBar" style={styles.CircleShapeView}>
                 </View>
-                <View style={styles.SquareShapeView}>
+                <View data-test="bottomBar" style={styles.SquareShapeView}>
                 </View>
-                <View style={styles.TriangleShapeView}>
+                <View data-test="bottomBar" style={styles.TriangleShapeView}>
                 </View>
                 
             </View>

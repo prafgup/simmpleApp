@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Status Dots Status Dots Should match to snapshot: Status Dots 1`] = `ShallowWrapper {}`;

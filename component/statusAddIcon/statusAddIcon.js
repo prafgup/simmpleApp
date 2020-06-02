@@ -7,11 +7,11 @@ class AddStatusIcon extends React.Component{
 
     render(){
         return(
-            <View style={styles.container}>
+            <View data-test="statusAdd" style={styles.container}>
                 <View style={styles.CircleShapeView}>
                 </View>
                 <View style={styles.plusIcon}>
-                    <Icon name="plus" size={17} color="white" />
+                    <Icon data-test="icon" name="plus" size={17} color="white" />
                 </View>
                 
             </View>

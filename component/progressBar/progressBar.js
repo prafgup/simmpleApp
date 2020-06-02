@@ -28,7 +28,7 @@ class ProgressBar extends React.Component {
   render() {  
     return (  
       <View style={styles.container}>  
-            <Animated.View  
+            <Animated.View  data-test ="animatedContainer"
                 style={[  
                     styles.inner,{width: this.state.progressStatus +"%"},  
                 ]}  

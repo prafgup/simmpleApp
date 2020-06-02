@@ -7,9 +7,9 @@ class AppBar extends React.Component{
 
     render(){
         return(
-            <View style={styles.appBar}>
-                <Icon name="angle-left" size={30} color="orange" />
-                <Icon name="bars" size={30} color="orange" />
+            <View  style={styles.appBar}>
+                <Icon data-test="appBar" name="angle-left" size={30} color="orange" />
+                <Icon data-test="appBar" name="bars" size={30} color="orange" />
             </View>
         );
     }
