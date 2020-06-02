@@ -1,3 +1,97 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Status Dots Status Dots Should match to snapshot: Status Dots 1`] = `ShallowWrapper {}`;
+exports[`Status Dots Status Dots Should match to snapshot: Status Dots 1`] = `
+StatusDots {
+  "context": Object {},
+  "props": Object {},
+  "refs": Object {},
+  "setState": [Function],
+  "state": null,
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useDeferredValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useResponder": [Function],
+        "useState": [Function],
+        "useTransition": [Function],
+      },
+      "_element": <StatusDots />,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_renderPhaseUpdates": null,
+      "_rendered": <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "height": 25,
+            "width": 70,
+          }
+        }
+      >
+        <View
+          data-test="dots"
+          style={
+            Object {
+              "backgroundColor": "orange",
+              "borderColor": "white",
+              "borderRadius": 7.5,
+              "borderWidth": 3,
+              "height": 15,
+              "marginLeft": 8,
+              "width": 15,
+            }
+          }
+        />
+        <View
+          data-test="dots"
+          style={
+            Object {
+              "backgroundColor": "orange",
+              "borderColor": "white",
+              "borderRadius": 7.5,
+              "borderWidth": 3,
+              "height": 15,
+              "marginLeft": 8,
+              "width": 15,
+            }
+          }
+        />
+        <View
+          data-test="dots"
+          style={
+            Object {
+              "backgroundColor": "orange",
+              "borderColor": "white",
+              "borderRadius": 7.5,
+              "borderWidth": 3,
+              "height": 15,
+              "marginLeft": 8,
+              "width": 15,
+            }
+          }
+        />
+      </View>,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;

@@ -14,7 +14,7 @@ describe("AddStatusIcon",()=>{
         });
 
         it("Should match to snapshot",()=>{
-            expect(component).toMatchSnapshot("Add Status Icon");
+            expect(component.instance()).toMatchSnapshot("Add Status Icon");
         });
 
         it("Should Render all Plus Icon",()=>{

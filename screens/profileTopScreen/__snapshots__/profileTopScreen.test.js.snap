@@ -2,19 +2,1102 @@
 
 exports[`Profile Top Page Decagon Points  Should return 10 points in string: All Points 1`] = `"100,50 90.45084971874738,79.38926261462366 65.45084971874738,97.55282581475768 34.549150281252636,97.55282581475768 9.549150281252633,79.38926261462368 0,50.000000000000014 9.549150281252627,20.61073738537635 34.54915028125262,2.447174185242323 65.45084971874736,2.447174185242318 90.45084971874738,20.610737385376332 "`;
 
-exports[`Profile Top Page Image Render Should Return Default: Default Image 1`] = `ShallowWrapper {}`;
+exports[`Profile Top Page Image Render Should Return Default: Default Image 1`] = `
+SvgImage {
+  "_cancelLongPressDelayTimeout": [Function],
+  "_endHighlight": [Function],
+  "_getDistanceBetweenPoints": [Function],
+  "_handleDelay": [Function],
+  "_handleLongDelay": [Function],
+  "_handleQueryLayout": [Function],
+  "_isHighlight": [Function],
+  "_performSideEffectsForTransition": [Function],
+  "_receiveSignal": [Function],
+  "_remeasureMetricsOnActivation": [Function],
+  "_savePressInLocation": [Function],
+  "_startHighlight": [Function],
+  "componentDidMount": [Function],
+  "componentWillUnmount": [Function],
+  "context": Object {},
+  "getBBox": [Function],
+  "getCTM": [Function],
+  "getPointAtLength": [Function],
+  "getScreenCTM": [Function],
+  "getTotalLength": [Function],
+  "isPointInFill": [Function],
+  "isPointInStroke": [Function],
+  "props": Object {
+    "clipPath": "#clipImg",
+    "data-test": "defaultImage",
+    "height": "100%",
+    "href": Object {
+      "uri": "https://cdn.iconscout.com/icon/free/png-512/404-page-not-found-456876.png",
+    },
+    "preserveAspectRatio": "xMidYMid slice",
+    "width": "100%",
+    "x": 0,
+    "y": 0,
+  },
+  "refMethod": [Function],
+  "refs": Object {},
+  "root": null,
+  "setNativeProps": [Function],
+  "setState": [Function],
+  "state": Object {
+    "touchable": Object {
+      "responderID": null,
+      "touchState": undefined,
+    },
+  },
+  "touchableGetHighlightDelayMS": [Function],
+  "touchableGetHitSlop": [Function],
+  "touchableGetInitialState": [Function],
+  "touchableGetLongPressDelayMS": [Function],
+  "touchableGetPressOutDelayMS": [Function],
+  "touchableGetPressRectOffset": [Function],
+  "touchableHandleActivePressIn": [Function],
+  "touchableHandleActivePressOut": [Function],
+  "touchableHandleBlur": [Function],
+  "touchableHandleFocus": [Function],
+  "touchableHandleLongPress": [Function],
+  "touchableHandlePress": [Function],
+  "touchableHandleResponderGrant": [Function],
+  "touchableHandleResponderMove": [Function],
+  "touchableHandleResponderRelease": [Function],
+  "touchableHandleResponderTerminate": [Function],
+  "touchableHandleResponderTerminationRequest": [Function],
+  "touchableHandleStartShouldSetResponder": [Function],
+  "touchableLongPressCancelsPress": [Function],
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useDeferredValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useResponder": [Function],
+        "useState": [Function],
+        "useTransition": [Function],
+      },
+      "_element": <Image
+        clipPath="#clipImg"
+        data-test="defaultImage"
+        height="100%"
+        href={
+          Object {
+            "uri": "https://cdn.iconscout.com/icon/free/png-512/404-page-not-found-456876.png",
+          }
+        }
+        preserveAspectRatio="xMidYMid slice"
+        width="100%"
+        x={0}
+        y={0}
+      />,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_renderPhaseUpdates": null,
+      "_rendered": <RNSVGImage
+        align="xMidYMid"
+        clipPath="clipImg"
+        height="100%"
+        meetOrSlice={1}
+        src={
+          Object {
+            "uri": "https://cdn.iconscout.com/icon/free/png-512/404-page-not-found-456876.png",
+          }
+        }
+        width="100%"
+        x={0}
+        y={0}
+      />,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+  "withoutDefaultFocusAndBlur": Object {
+    "_cancelLongPressDelayTimeout": [Function],
+    "_endHighlight": [Function],
+    "_getDistanceBetweenPoints": [Function],
+    "_handleDelay": [Function],
+    "_handleLongDelay": [Function],
+    "_handleQueryLayout": [Function],
+    "_isHighlight": [Function],
+    "_performSideEffectsForTransition": [Function],
+    "_receiveSignal": [Function],
+    "_remeasureMetricsOnActivation": [Function],
+    "_savePressInLocation": [Function],
+    "_startHighlight": [Function],
+    "componentDidMount": [Function],
+    "componentWillUnmount": [Function],
+    "touchableGetInitialState": [Function],
+    "touchableHandleResponderGrant": [Function],
+    "touchableHandleResponderMove": [Function],
+    "touchableHandleResponderRelease": [Function],
+    "touchableHandleResponderTerminate": [Function],
+    "touchableHandleResponderTerminationRequest": [Function],
+    "touchableHandleStartShouldSetResponder": [Function],
+    "touchableLongPressCancelsPress": [Function],
+    "withoutDefaultFocusAndBlur": Object {},
+  },
+}
+`;
 
-exports[`Profile Top Page Image Render Should Return uriImage: User Image 1`] = `ShallowWrapper {}`;
+exports[`Profile Top Page Image Render Should Return uriImage: User Image 1`] = `
+SvgImage {
+  "_cancelLongPressDelayTimeout": [Function],
+  "_endHighlight": [Function],
+  "_getDistanceBetweenPoints": [Function],
+  "_handleDelay": [Function],
+  "_handleLongDelay": [Function],
+  "_handleQueryLayout": [Function],
+  "_isHighlight": [Function],
+  "_performSideEffectsForTransition": [Function],
+  "_receiveSignal": [Function],
+  "_remeasureMetricsOnActivation": [Function],
+  "_savePressInLocation": [Function],
+  "_startHighlight": [Function],
+  "componentDidMount": [Function],
+  "componentWillUnmount": [Function],
+  "context": Object {},
+  "getBBox": [Function],
+  "getCTM": [Function],
+  "getPointAtLength": [Function],
+  "getScreenCTM": [Function],
+  "getTotalLength": [Function],
+  "isPointInFill": [Function],
+  "isPointInStroke": [Function],
+  "props": Object {
+    "clipPath": "#clipImg",
+    "data-test": "uriImage",
+    "height": "100%",
+    "href": Object {
+      "uri": "testUrl",
+    },
+    "preserveAspectRatio": "xMidYMid slice",
+    "width": "100%",
+    "x": 0,
+    "y": 0,
+  },
+  "refMethod": [Function],
+  "refs": Object {},
+  "root": null,
+  "setNativeProps": [Function],
+  "setState": [Function],
+  "state": Object {
+    "touchable": Object {
+      "responderID": null,
+      "touchState": undefined,
+    },
+  },
+  "touchableGetHighlightDelayMS": [Function],
+  "touchableGetHitSlop": [Function],
+  "touchableGetInitialState": [Function],
+  "touchableGetLongPressDelayMS": [Function],
+  "touchableGetPressOutDelayMS": [Function],
+  "touchableGetPressRectOffset": [Function],
+  "touchableHandleActivePressIn": [Function],
+  "touchableHandleActivePressOut": [Function],
+  "touchableHandleBlur": [Function],
+  "touchableHandleFocus": [Function],
+  "touchableHandleLongPress": [Function],
+  "touchableHandlePress": [Function],
+  "touchableHandleResponderGrant": [Function],
+  "touchableHandleResponderMove": [Function],
+  "touchableHandleResponderRelease": [Function],
+  "touchableHandleResponderTerminate": [Function],
+  "touchableHandleResponderTerminationRequest": [Function],
+  "touchableHandleStartShouldSetResponder": [Function],
+  "touchableLongPressCancelsPress": [Function],
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useDeferredValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useResponder": [Function],
+        "useState": [Function],
+        "useTransition": [Function],
+      },
+      "_element": <Image
+        clipPath="#clipImg"
+        data-test="uriImage"
+        height="100%"
+        href={
+          Object {
+            "uri": "testUrl",
+          }
+        }
+        preserveAspectRatio="xMidYMid slice"
+        width="100%"
+        x={0}
+        y={0}
+      />,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_renderPhaseUpdates": null,
+      "_rendered": <RNSVGImage
+        align="xMidYMid"
+        clipPath="clipImg"
+        height="100%"
+        meetOrSlice={1}
+        src={
+          Object {
+            "uri": "testUrl",
+          }
+        }
+        width="100%"
+        x={0}
+        y={0}
+      />,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+  "withoutDefaultFocusAndBlur": Object {
+    "_cancelLongPressDelayTimeout": [Function],
+    "_endHighlight": [Function],
+    "_getDistanceBetweenPoints": [Function],
+    "_handleDelay": [Function],
+    "_handleLongDelay": [Function],
+    "_handleQueryLayout": [Function],
+    "_isHighlight": [Function],
+    "_performSideEffectsForTransition": [Function],
+    "_receiveSignal": [Function],
+    "_remeasureMetricsOnActivation": [Function],
+    "_savePressInLocation": [Function],
+    "_startHighlight": [Function],
+    "componentDidMount": [Function],
+    "componentWillUnmount": [Function],
+    "touchableGetInitialState": [Function],
+    "touchableHandleResponderGrant": [Function],
+    "touchableHandleResponderMove": [Function],
+    "touchableHandleResponderRelease": [Function],
+    "touchableHandleResponderTerminate": [Function],
+    "touchableHandleResponderTerminationRequest": [Function],
+    "touchableHandleStartShouldSetResponder": [Function],
+    "touchableLongPressCancelsPress": [Function],
+    "withoutDefaultFocusAndBlur": Object {},
+  },
+}
+`;
 
-exports[`Profile Top Page Name and Bio Should match to snapshot: Name Bio 1`] = `ShallowWrapper {}`;
+exports[`Profile Top Page Name and Bio Should match to snapshot: Name Bio 1`] = `
+Component {
+  "context": Object {},
+  "props": Object {
+    "children": Array [
+      <View
+        data-test="profileName"
+      >
+        <Text
+          style={
+            Object {
+              "color": "grey",
+              "fontFamily": "Open Sans",
+              "fontSize": 22,
+              "fontWeight": "bold",
+              "marginLeft": "auto",
+              "marginRight": "auto",
+            }
+          }
+        >
+          Byung Ho
+        </Text>
+      </View>,
+      <View
+        data-test="profession"
+      >
+        <Text
+          style={
+            Object {
+              "color": "grey",
+              "fontSize": 14,
+              "fontWeight": "100",
+              "marginLeft": "auto",
+              "marginRight": "auto",
+            }
+          }
+        >
+          Photographer
+        </Text>
+      </View>,
+      <View
+        data-test="website"
+      >
+        <Text
+          style={
+            Object {
+              "color": "grey",
+              "fontSize": 14,
+              "fontWeight": "100",
+              "marginLeft": "auto",
+              "marginRight": "auto",
+            }
+          }
+        >
+          www.hoarts.comm
+        </Text>
+      </View>,
+    ],
+  },
+  "refs": Object {},
+  "setState": [Function],
+  "state": null,
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useDeferredValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useResponder": [Function],
+        "useState": [Function],
+        "useTransition": [Function],
+      },
+      "_element": <View>
+        <View
+          data-test="profileName"
+        >
+          <Text
+            style={
+              Object {
+                "color": "grey",
+                "fontFamily": "Open Sans",
+                "fontSize": 22,
+                "fontWeight": "bold",
+                "marginLeft": "auto",
+                "marginRight": "auto",
+              }
+            }
+          >
+            Byung Ho
+          </Text>
+        </View>
+        <View
+          data-test="profession"
+        >
+          <Text
+            style={
+              Object {
+                "color": "grey",
+                "fontSize": 14,
+                "fontWeight": "100",
+                "marginLeft": "auto",
+                "marginRight": "auto",
+              }
+            }
+          >
+            Photographer
+          </Text>
+        </View>
+        <View
+          data-test="website"
+        >
+          <Text
+            style={
+              Object {
+                "color": "grey",
+                "fontSize": 14,
+                "fontWeight": "100",
+                "marginLeft": "auto",
+                "marginRight": "auto",
+              }
+            }
+          >
+            www.hoarts.comm
+          </Text>
+        </View>
+      </View>,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_renderPhaseUpdates": null,
+      "_rendered": <View>
+        <View
+          data-test="profileName"
+        >
+          <Text
+            style={
+              Object {
+                "color": "grey",
+                "fontFamily": "Open Sans",
+                "fontSize": 22,
+                "fontWeight": "bold",
+                "marginLeft": "auto",
+                "marginRight": "auto",
+              }
+            }
+          >
+            Byung Ho
+          </Text>
+        </View>
+        <View
+          data-test="profession"
+        >
+          <Text
+            style={
+              Object {
+                "color": "grey",
+                "fontSize": 14,
+                "fontWeight": "100",
+                "marginLeft": "auto",
+                "marginRight": "auto",
+              }
+            }
+          >
+            Photographer
+          </Text>
+        </View>
+        <View
+          data-test="website"
+        >
+          <Text
+            style={
+              Object {
+                "color": "grey",
+                "fontSize": 14,
+                "fontWeight": "100",
+                "marginLeft": "auto",
+                "marginRight": "auto",
+              }
+            }
+          >
+            www.hoarts.comm
+          </Text>
+        </View>
+      </View>,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;
 
-exports[`Profile Top Page SVG Image Render Should Match Snapshot: Default Image 1`] = `ShallowWrapper {}`;
+exports[`Profile Top Page SVG Image Render Should Match Snapshot: Default Image 1`] = `
+Component {
+  "context": Object {},
+  "props": Object {
+    "children": Array [
+      <View
+        style={Object {}}
+      >
+        <Svg
+          height="170"
+          preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 170 170"
+          width="170"
+        >
+          <Defs>
+            <ClipPath
+              id="clipBack"
+            >
+              <Polygon
+                points="170,85 153.76644452187054,134.9617464448602 111.26644452187054,165.83980388508806 58.733555478129475,165.83980388508806 16.233555478129475,134.96174644486024 0,85.00000000000001 16.233555478129468,35.03825355513979 58.73355547812946,4.16019611491195 111.26644452187051,4.16019611491194 153.76644452187054,35.03825355513976 "
+              />
+            </ClipPath>
+          </Defs>
+          <Rect
+            clipPath="#clipBack"
+            fill="white"
+            height="170"
+            width="170"
+            x={0}
+            y={0}
+          />
+        </Svg>
+      </View>,
+      <View
+        style={
+          Object {
+            "left": 5,
+            "position": "absolute",
+            "top": 5,
+          }
+        }
+      >
+        <Svg
+          height="170"
+          preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 170 170"
+          width="170"
+        >
+          <Defs>
+            <ClipPath
+              id="clipBack"
+            >
+              <Polygon
+                points="160,80 144.72135954999578,127.02282018339785 104.7213595499958,156.0845213036123 55.27864045000421,156.0845213036123 15.278640450004213,127.02282018339787 0,80.00000000000001 15.278640450004204,32.97717981660216 55.2786404500042,3.9154786963877175 104.72135954999578,3.9154786963877086 144.72135954999578,32.97717981660213 "
+              />
+            </ClipPath>
+          </Defs>
+          <Rect
+            clipPath="#clipBack"
+            fill="white"
+            height="170"
+            width="170"
+            x={0}
+            y={0}
+          />
+        </Svg>
+      </View>,
+      <View
+        style={
+          Object {
+            "left": 7.5,
+            "position": "absolute",
+            "top": 7.5,
+          }
+        }
+      >
+        <Svg
+          height="170"
+          preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 170 170"
+          width="170"
+        >
+          <Defs>
+            <ClipPath
+              id="clipImg"
+            >
+              <Polygon
+                height="160"
+                points="155,77.5 140.19881706405843,123.05335705266667 101.44881706405843,151.20688001287442 53.55118293594158,151.20688001287442 14.801182935941581,123.05335705266668 0,77.50000000000001 14.801182935941572,31.94664294733334 53.55118293594156,3.793119987125601 101.44881706405842,3.7931199871255927 140.19881706405843,31.946642947333316 "
+                width="160"
+              />
+            </ClipPath>
+          </Defs>
+          <Image
+            clipPath="#clipImg"
+            data-test="defaultImage"
+            height="100%"
+            href={
+              Object {
+                "uri": "https://cdn.iconscout.com/icon/free/png-512/404-page-not-found-456876.png",
+              }
+            }
+            preserveAspectRatio="xMidYMid slice"
+            width="100%"
+            x={0}
+            y={0}
+          />
+        </Svg>
+      </View>,
+    ],
+  },
+  "refs": Object {},
+  "setState": [Function],
+  "state": null,
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useDeferredValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useResponder": [Function],
+        "useState": [Function],
+        "useTransition": [Function],
+      },
+      "_element": <View>
+        <View
+          style={Object {}}
+        >
+          <Svg
+            height="170"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 170 170"
+            width="170"
+          >
+            <Defs>
+              <ClipPath
+                id="clipBack"
+              >
+                <Polygon
+                  points="170,85 153.76644452187054,134.9617464448602 111.26644452187054,165.83980388508806 58.733555478129475,165.83980388508806 16.233555478129475,134.96174644486024 0,85.00000000000001 16.233555478129468,35.03825355513979 58.73355547812946,4.16019611491195 111.26644452187051,4.16019611491194 153.76644452187054,35.03825355513976 "
+                />
+              </ClipPath>
+            </Defs>
+            <Rect
+              clipPath="#clipBack"
+              fill="white"
+              height="170"
+              width="170"
+              x={0}
+              y={0}
+            />
+          </Svg>
+        </View>
+        <View
+          style={
+            Object {
+              "left": 5,
+              "position": "absolute",
+              "top": 5,
+            }
+          }
+        >
+          <Svg
+            height="170"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 170 170"
+            width="170"
+          >
+            <Defs>
+              <ClipPath
+                id="clipBack"
+              >
+                <Polygon
+                  points="160,80 144.72135954999578,127.02282018339785 104.7213595499958,156.0845213036123 55.27864045000421,156.0845213036123 15.278640450004213,127.02282018339787 0,80.00000000000001 15.278640450004204,32.97717981660216 55.2786404500042,3.9154786963877175 104.72135954999578,3.9154786963877086 144.72135954999578,32.97717981660213 "
+                />
+              </ClipPath>
+            </Defs>
+            <Rect
+              clipPath="#clipBack"
+              fill="white"
+              height="170"
+              width="170"
+              x={0}
+              y={0}
+            />
+          </Svg>
+        </View>
+        <View
+          style={
+            Object {
+              "left": 7.5,
+              "position": "absolute",
+              "top": 7.5,
+            }
+          }
+        >
+          <Svg
+            height="170"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 170 170"
+            width="170"
+          >
+            <Defs>
+              <ClipPath
+                id="clipImg"
+              >
+                <Polygon
+                  height="160"
+                  points="155,77.5 140.19881706405843,123.05335705266667 101.44881706405843,151.20688001287442 53.55118293594158,151.20688001287442 14.801182935941581,123.05335705266668 0,77.50000000000001 14.801182935941572,31.94664294733334 53.55118293594156,3.793119987125601 101.44881706405842,3.7931199871255927 140.19881706405843,31.946642947333316 "
+                  width="160"
+                />
+              </ClipPath>
+            </Defs>
+            <Image
+              clipPath="#clipImg"
+              data-test="defaultImage"
+              height="100%"
+              href={
+                Object {
+                  "uri": "https://cdn.iconscout.com/icon/free/png-512/404-page-not-found-456876.png",
+                }
+              }
+              preserveAspectRatio="xMidYMid slice"
+              width="100%"
+              x={0}
+              y={0}
+            />
+          </Svg>
+        </View>
+      </View>,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_renderPhaseUpdates": null,
+      "_rendered": <View>
+        <View
+          style={Object {}}
+        >
+          <Svg
+            height="170"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 170 170"
+            width="170"
+          >
+            <Defs>
+              <ClipPath
+                id="clipBack"
+              >
+                <Polygon
+                  points="170,85 153.76644452187054,134.9617464448602 111.26644452187054,165.83980388508806 58.733555478129475,165.83980388508806 16.233555478129475,134.96174644486024 0,85.00000000000001 16.233555478129468,35.03825355513979 58.73355547812946,4.16019611491195 111.26644452187051,4.16019611491194 153.76644452187054,35.03825355513976 "
+                />
+              </ClipPath>
+            </Defs>
+            <Rect
+              clipPath="#clipBack"
+              fill="white"
+              height="170"
+              width="170"
+              x={0}
+              y={0}
+            />
+          </Svg>
+        </View>
+        <View
+          style={
+            Object {
+              "left": 5,
+              "position": "absolute",
+              "top": 5,
+            }
+          }
+        >
+          <Svg
+            height="170"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 170 170"
+            width="170"
+          >
+            <Defs>
+              <ClipPath
+                id="clipBack"
+              >
+                <Polygon
+                  points="160,80 144.72135954999578,127.02282018339785 104.7213595499958,156.0845213036123 55.27864045000421,156.0845213036123 15.278640450004213,127.02282018339787 0,80.00000000000001 15.278640450004204,32.97717981660216 55.2786404500042,3.9154786963877175 104.72135954999578,3.9154786963877086 144.72135954999578,32.97717981660213 "
+                />
+              </ClipPath>
+            </Defs>
+            <Rect
+              clipPath="#clipBack"
+              fill="white"
+              height="170"
+              width="170"
+              x={0}
+              y={0}
+            />
+          </Svg>
+        </View>
+        <View
+          style={
+            Object {
+              "left": 7.5,
+              "position": "absolute",
+              "top": 7.5,
+            }
+          }
+        >
+          <Svg
+            height="170"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 170 170"
+            width="170"
+          >
+            <Defs>
+              <ClipPath
+                id="clipImg"
+              >
+                <Polygon
+                  height="160"
+                  points="155,77.5 140.19881706405843,123.05335705266667 101.44881706405843,151.20688001287442 53.55118293594158,151.20688001287442 14.801182935941581,123.05335705266668 0,77.50000000000001 14.801182935941572,31.94664294733334 53.55118293594156,3.793119987125601 101.44881706405842,3.7931199871255927 140.19881706405843,31.946642947333316 "
+                  width="160"
+                />
+              </ClipPath>
+            </Defs>
+            <Image
+              clipPath="#clipImg"
+              data-test="defaultImage"
+              height="100%"
+              href={
+                Object {
+                  "uri": "https://cdn.iconscout.com/icon/free/png-512/404-page-not-found-456876.png",
+                }
+              }
+              preserveAspectRatio="xMidYMid slice"
+              width="100%"
+              x={0}
+              y={0}
+            />
+          </Svg>
+        </View>
+      </View>,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;
 
-exports[`Profile Top Page Should Return Correct Floating Icon Should Return Just View: View 1`] = `ShallowWrapper {}`;
+exports[`Profile Top Page Should Return Correct Floating Icon Should Return Just View: View 1`] = `
+Component {
+  "context": Object {},
+  "props": Object {},
+  "refs": Object {},
+  "setState": [Function],
+  "state": null,
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useDeferredValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useResponder": [Function],
+        "useState": [Function],
+        "useTransition": [Function],
+      },
+      "_element": <View />,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_renderPhaseUpdates": null,
+      "_rendered": <View />,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;
 
-exports[`Profile Top Page Should Return Correct Floating Icon Should Return Plus Sign: Plus Sign 1`] = `ShallowWrapper {}`;
+exports[`Profile Top Page Should Return Correct Floating Icon Should Return Plus Sign: Plus Sign 1`] = `
+Component {
+  "context": Object {},
+  "props": Object {
+    "children": <ForwardRef
+      data-test="plus"
+      onPress={[MockFunction]}
+    >
+      <AddStatusIcon />
+    </ForwardRef>,
+    "style": Object {
+      "bottom": 25,
+      "height": 25,
+      "position": "absolute",
+      "right": 14,
+      "width": 25,
+      "zIndex": 1,
+    },
+  },
+  "refs": Object {},
+  "setState": [Function],
+  "state": null,
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useDeferredValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useResponder": [Function],
+        "useState": [Function],
+        "useTransition": [Function],
+      },
+      "_element": <View
+        style={
+          Object {
+            "bottom": 25,
+            "height": 25,
+            "position": "absolute",
+            "right": 14,
+            "width": 25,
+            "zIndex": 1,
+          }
+        }
+      >
+        <ForwardRef
+          data-test="plus"
+          onPress={[MockFunction]}
+        >
+          <AddStatusIcon />
+        </ForwardRef>
+      </View>,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_renderPhaseUpdates": null,
+      "_rendered": <View
+        style={
+          Object {
+            "bottom": 25,
+            "height": 25,
+            "position": "absolute",
+            "right": 14,
+            "width": 25,
+            "zIndex": 1,
+          }
+        }
+      >
+        <ForwardRef
+          data-test="plus"
+          onPress={[MockFunction]}
+        >
+          <AddStatusIcon />
+        </ForwardRef>
+      </View>,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;
 
-exports[`Profile Top Page Should Return Correct Floating Icon Should Return Three Dots: Three Dots 1`] = `ShallowWrapper {}`;
+exports[`Profile Top Page Should Return Correct Floating Icon Should Return Three Dots: Three Dots 1`] = `
+Component {
+  "context": Object {},
+  "props": Object {
+    "children": <StatusDots />,
+    "data-test": "threeDot",
+    "style": Object {
+      "bottom": 24,
+      "position": "absolute",
+      "right": 13,
+      "zIndex": 1,
+    },
+  },
+  "refs": Object {},
+  "setState": [Function],
+  "state": null,
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useDeferredValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useResponder": [Function],
+        "useState": [Function],
+        "useTransition": [Function],
+      },
+      "_element": <View
+        data-test="threeDot"
+        style={
+          Object {
+            "bottom": 24,
+            "position": "absolute",
+            "right": 13,
+            "zIndex": 1,
+          }
+        }
+      >
+        <StatusDots />
+      </View>,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_renderPhaseUpdates": null,
+      "_rendered": <View
+        data-test="threeDot"
+        style={
+          Object {
+            "bottom": 24,
+            "position": "absolute",
+            "right": 13,
+            "zIndex": 1,
+          }
+        }
+      >
+        <StatusDots />
+      </View>,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;
 
 exports[`Profile Top Page Should return correct Status Color Should return grey: Status Seen True 1`] = `"grey"`;
 

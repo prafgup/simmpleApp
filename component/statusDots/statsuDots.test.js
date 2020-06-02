@@ -14,7 +14,7 @@ describe("Status Dots",()=>{
         });
 
         it("Should match to snapshot",()=>{
-            expect(component).toMatchSnapshot("Status Dots");
+            expect(component.instance()).toMatchSnapshot("Status Dots");
         });
 
         it("Should Render all 3 Dots",()=>{

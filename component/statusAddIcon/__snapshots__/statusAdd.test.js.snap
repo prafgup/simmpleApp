@@ -1,3 +1,82 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`AddStatusIcon AddStatusIcon Should match to snapshot: Add Status Icon 1`] = `ShallowWrapper {}`;
+exports[`AddStatusIcon AddStatusIcon Should match to snapshot: Add Status Icon 1`] = `
+AddStatusIcon {
+  "context": Object {},
+  "props": Object {},
+  "refs": Object {},
+  "setState": [Function],
+  "state": null,
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useDeferredValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useResponder": [Function],
+        "useState": [Function],
+        "useTransition": [Function],
+      },
+      "_element": <AddStatusIcon />,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_renderPhaseUpdates": null,
+      "_rendered": <View
+        data-test="statusAdd"
+        style={
+          Object {
+            "height": 25,
+            "width": 25,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "orange",
+              "borderRadius": 12.5,
+              "height": 25,
+              "width": 25,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "left": 6,
+              "position": "relative",
+              "top": -20,
+            }
+          }
+        >
+          <Icon
+            allowFontScaling={false}
+            color="white"
+            data-test="icon"
+            name="plus"
+            size={17}
+          />
+        </View>
+      </View>,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;

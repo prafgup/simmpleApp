@@ -14,7 +14,7 @@ describe("BottomFancyBar",()=>{
         });
 
         it("Should match to snapshot",()=>{
-            expect(component).toMatchSnapshot("Name Bio");
+            expect(component.instance()).toMatchSnapshot("Name Bio");
         });
 
         it("Should Render all 4 Items",()=>{

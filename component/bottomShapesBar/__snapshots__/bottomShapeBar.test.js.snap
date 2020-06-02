@@ -1,3 +1,117 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`BottomFancyBar BottomFancyBar Should match to snapshot: Name Bio 1`] = `ShallowWrapper {}`;
+exports[`BottomFancyBar BottomFancyBar Should match to snapshot: Name Bio 1`] = `
+BottomFancyBar {
+  "context": Object {},
+  "props": Object {},
+  "refs": Object {},
+  "setState": [Function],
+  "state": null,
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useDeferredValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useResponder": [Function],
+        "useState": [Function],
+        "useTransition": [Function],
+      },
+      "_element": <BottomFancyBar />,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_renderPhaseUpdates": null,
+      "_rendered": <View
+        style={
+          Object {
+            "alignContent": "center",
+            "justifyContent": "center",
+            "position": "relative",
+          }
+        }
+      >
+        <View
+          data-test="bottomBar"
+          style={
+            Object {
+              "borderColor": "orange",
+              "borderWidth": 1,
+              "height": 0,
+              "position": "absolute",
+              "top": 25,
+              "width": "100%",
+            }
+          }
+        />
+        <View
+          data-test="bottomBar"
+          style={
+            Object {
+              "alignContent": "center",
+              "backgroundColor": "white",
+              "borderColor": "orange",
+              "borderRadius": 22.5,
+              "borderWidth": 2,
+              "height": 45,
+              "marginLeft": "auto",
+              "marginRight": "auto",
+              "width": 45,
+            }
+          }
+        />
+        <View
+          data-test="bottomBar"
+          style={
+            Object {
+              "backgroundColor": "orange",
+              "height": 45,
+              "marginLeft": "10%",
+              "position": "relative",
+              "top": -5,
+              "width": 45,
+            }
+          }
+        />
+        <View
+          data-test="bottomBar"
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "borderBottomColor": "orange",
+              "borderBottomWidth": 45,
+              "borderLeftColor": "transparent",
+              "borderLeftWidth": 22.5,
+              "borderRightColor": "transparent",
+              "borderRightWidth": 22.5,
+              "borderStyle": "solid",
+              "height": 0,
+              "position": "absolute",
+              "right": "10%",
+              "top": 40,
+              "width": 0,
+            }
+          }
+        />
+      </View>,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;

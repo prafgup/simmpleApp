@@ -24,7 +24,7 @@ describe("Profile Top Page",()=>{
         });
 
         it("Should match to snapshot",()=>{
-            expect(component).toMatchSnapshot("Name Bio");
+            expect(component.instance()).toMatchSnapshot("Name Bio");
         });
 
         it("Should Render all Details",()=>{
@@ -77,7 +77,7 @@ describe("Profile Top Page",()=>{
             const status = {};
             const func = jest.fn();
             const component = shallow(renderStatusIcon(status,func));
-            expect(component).toMatchSnapshot("Plus Sign");
+            expect(component.instance()).toMatchSnapshot("Plus Sign");
             expect(component.find("[data-test='plus']").length).toBe(1);
 
             component.find("[data-test='plus']").first().props().onPress();
@@ -90,7 +90,7 @@ describe("Profile Top Page",()=>{
             };
             const func = jest.fn();
             const component = shallow(renderStatusIcon(status,func));
-            expect(component).toMatchSnapshot("Three Dots");
+            expect(component.instance()).toMatchSnapshot("Three Dots");
             expect(component.find("[data-test='threeDot']").length).toBe(1);
 
             
@@ -102,7 +102,7 @@ describe("Profile Top Page",()=>{
             };
             const func = jest.fn();
             const component = shallow(renderStatusIcon(status,func));
-            expect(component).toMatchSnapshot("View");
+            expect(component.instance()).toMatchSnapshot("View");
             
         });
     });
@@ -111,14 +111,14 @@ describe("Profile Top Page",()=>{
         it("Should Return Default",()=>{
             const uri = null;
             const component = shallow(renderFileUri(uri));
-            expect(component).toMatchSnapshot("Default Image");
+            expect(component.instance()).toMatchSnapshot("Default Image");
            
 
         });
         it("Should Return uriImage",()=>{
             const uri = "testUrl";
             const component = shallow(renderFileUri(uri));
-            expect(component).toMatchSnapshot("User Image");
+            expect(component.instance()).toMatchSnapshot("User Image");
 
         });
     });
@@ -126,7 +126,7 @@ describe("Profile Top Page",()=>{
     describe("SVG Image Render",()=>{
         it("Should Match Snapshot",()=>{
             const component = shallow(svgBuilder(null,null));
-            expect(component).toMatchSnapshot("Default Image");
+            expect(component.instance()).toMatchSnapshot("Default Image");
 
         });
     });
